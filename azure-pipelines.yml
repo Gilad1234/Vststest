@@ -9,7 +9,8 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- script: java -jar "c:\Playtika Jar\whitesource-fs-agent-18.4.2.jar" -c "c:\Playtika Jar\whitesource-fs-agent.config" -d "c:\Playtika Jar" 
+- script: java -jar "c:\Playtika Jar\whitesource-fs-agent-18.4.2.jar" -c "c:\Playtika Jar\whitesource-fs-agent.config" -d "c:\Playtika Jar"
+ displayname: run FSA
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
