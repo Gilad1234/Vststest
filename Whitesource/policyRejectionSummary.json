@@ -1,0 +1,39 @@
+{
+  "rejectingPolicies": [
+    {
+      "policyName": "Reject High VUL ",
+      "filterType": "VULNERABILITY_SEVERITY",
+      "productLevel": false,
+      "inclusive": false,
+      "rejectedLibraries": [
+        {
+          "name": "commons-beanutils-1.8.3.jar",
+          "sha1": "686ef3410bcf4ab8ce7fd0b899e832aaba5facf7",
+          "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=a046a979-cc4f-4f7a-af7a-ffa6e80dd24e",
+          "projects": [
+            "Demo"
+          ]
+        }
+      ]
+    },
+    {
+      "policyName": "oss-remove",
+      "filterType": "LICENSE",
+      "productLevel": false,
+      "inclusive": false,
+      "rejectedLibraries": [
+        {
+          "name": "JEntigrator-0.0.7.jar",
+          "sha1": "2d334c5dfa5316179b0007c01fcec0b44c623b38",
+          "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=c93c3390-e13d-4340-989d-8c0e0007f1f5",
+          "projects": [
+            "Demo"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalRejectedLibraries": 2
+  }
+}

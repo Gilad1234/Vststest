@@ -1,0 +1,282 @@
+{
+  "existingProjects": {
+    "Demo": {
+      "children": [
+        {
+          "resource": {
+            "displayName": "JEntigrator-0.0.7.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=c93c3390-e13d-4340-989d-8c0e0007f1f5",
+            "licenses": [
+              "GPL 3.0"
+            ],
+            "sha1": "2d334c5dfa5316179b0007c01fcec0b44c623b38",
+            "vulnerabilities": []
+          },
+          "policy": {
+            "displayName": "oss-remove",
+            "filterType": "LICENSE",
+            "filterLogic": "\QGPL\E|\QGPL 3.0\E|\QLGPL\E|\QGPL 1.0\E|\QGPL 2.0\E|\QCDDL or GPLv2 with exceptions\E|\QAGPL\E|\QAGPL 1.0\E|\QBSD 3\E|\QAGPL 3.0\E",
+            "actionType": "Reject",
+            "projectLevel": false,
+            "inclusive": false
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "azure-storage-7.0.0.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=28928a43-bcb8-4c4b-abe0-61eb2f73678f",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "dd8856b19ff056fcb1f3cd17e3ecc53efe2054d8",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "camel-weather-2.21.1.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=17b3eb69-cc2f-4bb5-afcc-3d5c2b5ad26e",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "f714aa30bc29c0b17157f9dbbf89e37ecc69918d",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "commons-beanutils-1.8.3.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=a046a979-cc4f-4f7a-af7a-ffa6e80dd24e",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "686ef3410bcf4ab8ce7fd0b899e832aaba5facf7",
+            "vulnerabilities": [
+              {
+                "name": "CVE-2014-0114",
+                "severity": "HIGH",
+                "score": 7.5
+              }
+            ]
+          },
+          "policy": {
+            "displayName": "Reject High VUL ",
+            "filterType": "VULNERABILITY_SEVERITY",
+            "filterLogic": "HIGH",
+            "actionType": "Reject",
+            "projectLevel": false,
+            "inclusive": false
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "embedded-mariadb-1.7.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=baae032e-d11b-4c52-a090-ff067100e97f",
+            "licenses": [
+              "MIT"
+            ],
+            "sha1": "3ba7135e0184a20560adbbb92cb311aa4c132238",
+            "vulnerabilities": []
+          },
+          "policy": {
+            "displayName": "oss-accept ",
+            "filterType": "LICENSE",
+            "filterLogic": "\QEclipse 1.0\E|\QDocbook\E|\QNetCDF\E|\QMIT\E|\QApple 2.0\E",
+            "actionType": "Approve",
+            "projectLevel": false,
+            "inclusive": true
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "google-api-services-youtube-v3-rev198-1.23.0.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=3baeb6d6-d765-475b-8713-c8d7332f8964",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "a16932de0b47b49f31610ded70bcb15098e323ba",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "guava-25.0-jre.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=7e6da3b1-4a06-4a92-af16-7fc4ea28c072",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "7319c34fa5866a85b6bad445adad69d402323129",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "lein-npm-0.7.0-rc1.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=b95dccf4-282c-4991-8ff6-b0a6e3b0529b",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "9c248336214bd6cf660abd51441cba6e0f4a3225",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "pantry-2.0.8.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=553f9bc9-1228-47db-893b-15f99a3a6664",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "e60666059089be6c9491a9edd7c0a8b8469855f1",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "robocup-instrumentation-0.1.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=dcea69e0-5bfc-4bcb-85a7-9ebe6f0da95f",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "e17b76d520751b0e251542e5643c7dc0fcb09e12",
+            "vulnerabilities": []
+          },
+          "children": []
+        },
+        {
+          "resource": {
+            "displayName": "wildfly-openssl-1.0.4.Final.jar",
+            "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=425c82fc-5477-4fb8-a460-08652f7dc30f",
+            "licenses": [
+              "Apache 2.0"
+            ],
+            "sha1": "90ddb278f73df09adb53b3ea4407967401550c3f",
+            "vulnerabilities": []
+          },
+          "children": []
+        }
+      ]
+    }
+  },
+  "newProjects": {},
+  "projectNewResources": {
+    "Demo": [
+      {
+        "displayName": "camel-weather-2.21.1.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=17b3eb69-cc2f-4bb5-afcc-3d5c2b5ad26e",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "f714aa30bc29c0b17157f9dbbf89e37ecc69918d",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "commons-beanutils-1.8.3.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=a046a979-cc4f-4f7a-af7a-ffa6e80dd24e",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "686ef3410bcf4ab8ce7fd0b899e832aaba5facf7",
+        "vulnerabilities": [
+          {
+            "name": "CVE-2014-0114",
+            "severity": "HIGH",
+            "score": 7.5
+          }
+        ]
+      },
+      {
+        "displayName": "google-api-services-youtube-v3-rev198-1.23.0.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=3baeb6d6-d765-475b-8713-c8d7332f8964",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "a16932de0b47b49f31610ded70bcb15098e323ba",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "pantry-2.0.8.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=553f9bc9-1228-47db-893b-15f99a3a6664",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "e60666059089be6c9491a9edd7c0a8b8469855f1",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "wildfly-openssl-1.0.4.Final.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=425c82fc-5477-4fb8-a460-08652f7dc30f",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "90ddb278f73df09adb53b3ea4407967401550c3f",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "lein-npm-0.7.0-rc1.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=b95dccf4-282c-4991-8ff6-b0a6e3b0529b",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "9c248336214bd6cf660abd51441cba6e0f4a3225",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "robocup-instrumentation-0.1.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=dcea69e0-5bfc-4bcb-85a7-9ebe6f0da95f",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "e17b76d520751b0e251542e5643c7dc0fcb09e12",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "guava-25.0-jre.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=7e6da3b1-4a06-4a92-af16-7fc4ea28c072",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "7319c34fa5866a85b6bad445adad69d402323129",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "azure-storage-7.0.0.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=28928a43-bcb8-4c4b-abe0-61eb2f73678f",
+        "licenses": [
+          "Apache 2.0"
+        ],
+        "sha1": "dd8856b19ff056fcb1f3cd17e3ecc53efe2054d8",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "embedded-mariadb-1.7.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=baae032e-d11b-4c52-a090-ff067100e97f",
+        "licenses": [
+          "MIT"
+        ],
+        "sha1": "3ba7135e0184a20560adbbb92cb311aa4c132238",
+        "vulnerabilities": []
+      },
+      {
+        "displayName": "JEntigrator-0.0.7.jar",
+        "link": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=644580;uuid=c93c3390-e13d-4340-989d-8c0e0007f1f5",
+        "licenses": [
+          "GPL 3.0"
+        ],
+        "sha1": "2d334c5dfa5316179b0007c01fcec0b44c623b38",
+        "vulnerabilities": []
+      }
+    ]
+  },
+  "organization": "Gilad123",
+  "requestToken": "2b6f4f874a0f241fe987b2e2ed68286c81534767574255"
+}
